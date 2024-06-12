@@ -5,6 +5,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    environment:
+      - TEST=hallo
     env_file:
       - .env
     ports:
