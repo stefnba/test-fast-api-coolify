@@ -32,4 +32,4 @@ dev:
 
 # Docker
 docker-up:
-	docker compose up
+	docker compose up -d --build --force-recreate --remove-orphans
